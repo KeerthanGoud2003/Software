@@ -1,0 +1,29 @@
+//SOURCE CODE FOR SWAPPING TWO NUMBERS
+
+package Numbers
+import java.util.*;
+public class Swapping {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n,m;
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter two numbers: ");
+		n=sc.nextInt();
+		m=sc.nextInt();
+		System.out.println("Before swapping : n = "+n+", m = "+m);
+		n=m+n;
+		m=n-m;
+		n=n-m;
+		System.out.println("After swapping : n = "+n+", m = "+m);
+	}
+
+}
+
+
+OUTPUT:
+
+Enter two numbers: 
+10 20
+Before swapping : n = 10, m = 20
+After swapping : n = 20, m = 10
