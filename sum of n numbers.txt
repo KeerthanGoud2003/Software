@@ -1,0 +1,28 @@
+//SOURCE CODE FOR FINDING THE SUM OF 'N' NUMBERS
+
+package Numbers;
+import java.util.*;
+public class SumOfNatural {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		int sum=0;
+		System.out.println("Enter the n value : ");
+		int n=sc.nextInt();
+		for(int i=1;i<=n;i++)
+		{
+			sum+=i;
+		}
+		System.out.println("The sum of natural numbers from (1 to "+n+") : "+sum);
+	}
+
+}
+
+
+OUTPUT:
+
+Enter the n value : 
+50
+The sum of natural numbers from (1 to 50) : 1275
+
